@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento de Janela 4 Folhas</title>
+</head>
+<body>
+    <h1> Janela 4 Folhas </h1>
+
+    <label> Largura: </label>
+    <input type=" number" id="largura">
+    <label> Altura: </label>
+    <input type="number" id="altura">
+
+    <label>Fechadura: </label>
+    <select id = "select" class="form-select" onChange="selectFechadura()">
+        <option selected>Selecione</option>
+        <option value="1">Bate-fecha</option>
+        <option value="2">Fechadura</option>
+        <option value="3">Nenhuma</option>
+      </select>
+
+      <label>Adesivo:</label>
+      <select id = "adesivo" class="form-select" onChange="selectAdesivo()">
+        <option selected >Selecione</option>
+        <option value="1">Branco 1x1</option>
+        <option value="2">Branco 1,2x1</option>
+        <option value="3">Preto 1x1</option>
+        <option value="4">Preto 1,2x1</option>
+        <option value="5">Jateado 1x1</option>
+        <option value="6">Jateado 1,2x1</option>
+        <option value="7">Nenhum</option>
+       </select>
+
+    <button id="btn">Calcular</button>
+    <div id="root"></div>
+
+    <script src="janela4fls.js"></script>
+
+</body>
+</html>

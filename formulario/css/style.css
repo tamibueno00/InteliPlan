@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body{
+    background-color: #E8E7D2;
+}
+nav{
+    background-color: #1B676B;
+    display: flex;
+    justify-content: space-between;
+    border: 100%;
+    width: auto;
+    height: 90px;
+}
+
+.nav-item{
+    color: #E8E7D2;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding-right: 60px;
+}
+.logo{
+    align-items: center;
+}
+.calcular {
+    background-color: #2ecc71;
+    color: #E8E7D2;
+}
+input{
+    text-align: center;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+label{
+    text-align: auto;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+option select{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+h4.display-6{
+    font-size: 150%;
+    margin: 10px;
+}
+h1{
+    color: #1A4347 ;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.formulario{
+    color: #1A4347 ;
+    font-size: 180%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+.logo{
+    margin: 15px;
+}
+.calcular{
+    color: #E8E7D2;;
+    background-color: #519548;
+    border: none;
+    height: 60px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 10px;
+}
+select.modelo{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+select.formulario2{
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+a.limpar{
+    display: flex;
+    justify-content: space-between;
+    border: 100%;
+    width: auto;
+    height: 90px;
+    color: red;
+}
+footer{
+    background-color: #1B676B;
+    width: auto;
+}
+.container{
+    background-color: #1A4347;
+    color: #E8E7D2;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    align-items:flex;
+
+}
+.div {
+    color:#E8E7D2 ;
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+
+
